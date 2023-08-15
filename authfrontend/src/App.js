@@ -20,7 +20,7 @@ function App() {
   const DashboardValid = async () => {
     let token = localStorage.getItem("usersdatatoken");
 
-    const res = await fetch("https://authfullformreset.vercel.app/validuser", {
+    const res = await fetch("https://authfullformreset.vercel.app/dash", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
