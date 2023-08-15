@@ -70,6 +70,7 @@ function App() {
           </>
 
         ) : <Box sx={{ display: 'flex', justifyContent: "center", alignItems: "center", height: "100vh" }}>
+          <img src="https://i.pinimg.com/originals/69/8a/66/698a6629921c7f080b9e6c48fd90a96d.gif" alt=""/>          
           Loading... &nbsp;
           <CircularProgress />
         </Box>
